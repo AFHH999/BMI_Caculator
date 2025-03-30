@@ -57,3 +57,5 @@ class MainWindow(QMainWindow):
             self.output_label.setText("Invalid input. Please enter a valid input.")
         bmi = weight / (height ** 2)
         self.output_label.setText(f"Your BMI is {bmi:.2f}")
+
+#Test for my GitHub!
